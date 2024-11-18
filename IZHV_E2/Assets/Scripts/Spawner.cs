@@ -68,6 +68,12 @@ public class Spawner : MonoBehaviour
     {
         if (spawnObstacles)
         { // Check if we should spawn.
+
+            if (Random.value < 0.01f)
+            { // Randomly change spawn Y-axis offset from 1 to 2
+                UpdateSpawnYOffset();
+            }
+
             spawnAccumulator += Time.deltaTime;
             if (spawnAccumulator >= nextSpawnIn)
             { // Spawn at most one obstacle per frame.
@@ -77,6 +83,14 @@ public class Spawner : MonoBehaviour
                 SpawnObstacle();
             }
         }
+    }
+
+    /// <summary>
+    /// Randomly updates the Y-axis offset of spawn position.
+    /// </summary>
+    private void UpdateSpawnYOffset()
+    {
+        spawnOffset.y = Random.value < 0.5f ? 1.0f : 2.0f;
     }
 
     /// <summary>
