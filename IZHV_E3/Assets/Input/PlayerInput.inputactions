@@ -353,7 +353,7 @@
                 {
                     "name": "",
                     "id": "5631eb4f-ab48-4b99-b63e-117469918826",
-                    "path": "<Gamepad>/rightShoulder",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "GP",
@@ -438,6 +438,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36c00d99-673b-4826-90c7-0b30a326cb5d",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GP",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false

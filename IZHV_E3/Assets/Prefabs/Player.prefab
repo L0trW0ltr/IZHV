@@ -500,18 +500,18 @@ MonoBehaviour:
     m_ActionName: PlayerMap/ToggleInvincible[/Keyboard/c]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 5586c122-1686-4993-b32f-3400f1dce771
-    m_ActionName: PlayerMap/ToggleVPadUI[/Keyboard/v]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 7dd75fed-f8de-4422-899d-bc8ac4741f54
-    m_ActionName: UI/Point[/Mouse/position,/XInputControllerWindows/dpad]
+    m_ActionName: UI/Point[/Mouse/position,/DualShock4GamepadHID/leftStick]
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 17b0948b-88ef-47c1-948e-655107ed963c
-    m_ActionName: UI/Click[/Mouse/leftButton,/XInputControllerWindows/buttonSouth]
+    m_ActionName: UI/Click[/Mouse/leftButton,/DualShock4GamepadHID/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5586c122-1686-4993-b32f-3400f1dce771
+    m_ActionName: PlayerMap/ToggleVPadUI[/Keyboard/v]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_DefaultControlScheme: M&K1
   m_DefaultActionMap: PlayerMap
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
